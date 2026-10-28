@@ -1,0 +1,18 @@
+ {
+ "id": "Desolate",
+ "name": "Desolate Decks",
+ "display_name": "Desolate Decks",
+ "badge_colour": "8092cc",
+ "badge_text_colour": "FFFFFF",
+ "badge_text_no_shadow": false,
+ "no_marquee": true,
+ "icon_path": "icon.png",
+ "icon_width": 34,
+ "author": ["januarydomino"],
+ "description": "I know you can't bear to face it. It's because you know what once was there is now abandoned. Or perhaps you're just terrified to find out what took it's place? It doesn't matter. Let's just forget and try to have fun, okay?",
+ "prefix": "desks",
+ "main_file": "main.lua",
+ "priority": 0,
+ "version": "1.0.0",
+ "dependencies": ["malverk (>=1.*)", "Steamodded (>=26.*)"]
+ }

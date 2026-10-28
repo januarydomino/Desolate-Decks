@@ -1,19 +1,12 @@
---- STEAMODDED HEADER
---- MOD_NAME: Desolate Decks
---- MOD_ID: Desolate
---- PREFIX: desks
---- MOD_AUTHOR: [januarydomino]
---- MOD_DESCRIPTION: All decks have been abandoned
---- VERSION: 0.9.0
---- DEPENDENCIES: [malverk]
-
 AltTexture{ 
     key = 'deck', 
     set = 'Back', 
     path = 'desks.png', 
     loc_txt = {
         name = 'Desolate Decks'
-    }
+    },
+    original_sheet = true,
+    display_pos = "b_abandoned"
 }
 TexturePack{
     key = 'desolate decks', 
@@ -23,8 +16,8 @@ TexturePack{
     loc_txt = { 
         name = "Desolate Decks",
         text = {
-            'All decks have',
-            'been {C:attention}abandoned{}'
+            '{C:attention}Desolate Decks{} makes all Deck Backs', 
+            'themed after {C:attention}Abandoned Deck{}'
         }
     }
 }
